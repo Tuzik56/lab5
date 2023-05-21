@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <form action="" method="post">
+        {% if full_name %}
+        <p>Hello, {{full_name}}!<br>Login: {{login}}<br>Password: {{password}}</p>
+        {% endif %}
+        <input type="submit" value="Logout" name="logout">
+    </form>
+</head>
+<body>
+
+</body>
+</html>
